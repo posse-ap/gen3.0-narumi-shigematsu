@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    width: 1440px;
+    height: 80px;
+     justify-content: space-between;
+     align-items: center;
+}
+.header_right{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.header_sns{
+    display: flex;
+    gap: 16px;
+}
