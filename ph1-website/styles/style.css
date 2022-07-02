@@ -18,7 +18,7 @@ footer{
     width: 1440px;
     height: 360px;
 }
-.footerInnerTop{
+.footer_inner_top{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -26,6 +26,6 @@ footer{
     margin-top: 50px;
     padding: 30px;
 }
-.footerInnerBottom{
+.footer_inner_bottom{
     text-align: center;
 }
