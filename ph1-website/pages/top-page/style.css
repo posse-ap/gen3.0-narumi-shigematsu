@@ -8,22 +8,12 @@ header{
 #logo{
     margin-left: 30px;
 }
-.headerRight{
+ul{
+    list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 280px;
-}
-.header ul{
-    width: 100px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-.headerSns{
-    display: flex;
-    gap: 16px;
-    margin-right: 10px;
 }
 footer{
     width: 100%;
@@ -43,16 +33,6 @@ footer{
 }
 #footerSubText i {
     font-size: 20px;
-}
-.footer ul{
-    width: 100px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-li{
-    text-decoration: none;
 }
 .snsButton{
     padding: 8px;
