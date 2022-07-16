@@ -40,6 +40,46 @@ ul{
 main{
     margin-top: 120px;
 }
+.mainContent{
+    margin: 160px auto;
+}
+#aboutSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aboutSection h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    margin: 20px;
+}
+#aboutSection h1::after{
+    content: "About POSSE";
+    font-size: 16px;
+    color: #0071bc;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#aboutContent{
+    display: flex;
+    flex-direction: row;
+}
+#aboutContent img{
+    width: 520px;
+    height: 320px;
+    border-radius: 25px;
+}
+#aboutContent p{
+    width: 520px;
+    height: 320px;
+    display: inline-block;
+    margin-left: 40px;
+    padding: 60px 0px;
+    line-height: 1.7;
+}
 .lineIcon{
     width: 50px;
     height: 50px;
@@ -50,8 +90,8 @@ main{
     position: relative;
 }
 #lineBackground{
-    width: 70vw;
-    height: 55vh;
+    width: 1080px;
+    height: 410px;
     background-size:cover;
     background-position:50%;
     margin: 50px auto;
@@ -61,8 +101,8 @@ main{
 #lineBackground::after{
     content: "";
     display: inline-block;
-    width: 70vw;
-    height: 55vh;
+    width: 1080px;
+    height: 410px;
     border-radius: 50px;
     background-color: rgba(0, 113, 188, 0.8);
 }
