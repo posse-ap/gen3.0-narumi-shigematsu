@@ -1,28 +1,108 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
 header{
     width: 100%;
     height: 80px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 #logo{
     margin-left: 30px;
 }
 ul{
+    width: 280px;
     list-style: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 280px;
-    margin: 15px;
+    margin-right: 15px;
 }
-.lineIcon{
+.snsButton{
+    border-radius: 25px;
+    border: 1px solid #bbb;
+    position: relative;
+    bottom: 2px;
+    padding: 8px;
+}
+.snsButton img{
     width: 25px;
     height: 25px;
+    position: relative;
+    top: 3px;
+    color: #999;
+}
+main{
+    margin-top: 120px;
+}
+.lineIcon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+}
+#lineSection{
+    position: relative;
 }
 #lineBackground{
-    width: 800px;
-    height: 300px;
+    width: 70vw;
+    height: 55vh;
+    background-size:cover;
+    background-position:50%;
+    margin: 50px auto;
+    background-image: url(../../img/bg-line.jpg);
+    border-radius: 50px;
+}
+#lineBackground::after{
+    content: "";
+    display: inline-block;
+    width: 70vw;
+    height: 55vh;
+    border-radius: 50px;
+    background-color: rgba(0, 113, 188, 0.8);
+}
+#lineContents{
+    height: 40vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#lineContents h1{
+    margin: 20px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+#lineText{
+    color: white;
+    text-align: center;
+    letter-spacing: 0.12em;
+    line-height: 1.7;
+}
+#lineButton{
+    position: relative;
+    color: #666;
+    background-color: white;
+    margin: 20px;
+    padding: 15px 150px;
+    border-radius: 30px;
+}
+#lineButton img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 1rem;
 }
 footer{
     width: 100%;
@@ -42,19 +122,6 @@ footer{
 }
 #footerSubText i {
     font-size: 20px;
-}
-.snsButton{
-    position: relative;
-    bottom: 5px;
-    padding: 8px;
-    border-radius: 40px;
-    border: 1px solid #bbb;
-}
-.snsButton i {
-    font-size: 25px;
-    position: relative;
-    color: #999;
-    top: 5px;
 }
 .footerBottom{
     height: 80px;
