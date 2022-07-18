@@ -10,7 +10,7 @@ header{
     align-items: center;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 #logo{
     margin-left: 30px;
@@ -22,6 +22,12 @@ ul{
     justify-content: space-around;
     align-items: center;
     margin-right: 15px;
+}
+.linkLetter{
+    color: #666;
+}
+header .linkLetter, #lineSection .linkLetter{
+    font-weight: bold;
 }
 .snsButton{
     border-radius: 25px;
@@ -35,13 +41,51 @@ ul{
     height: 25px;
     position: relative;
     top: 3px;
-    color: #999;
+    color: #adadad;
 }
 main{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 .mainContent{
     margin: 160px auto;
+}
+#visualContent{
+    display: flex;
+    align-items: center;
+}
+#visualHeader{
+    width: 500px;
+    height: 280px;
+    padding: 50px;
+    background-color: #eff2f5;
+    border-radius: 24px;
+    position: relative;
+    left: 120px;
+    z-index: 1;
+}
+#visualHeaderSmall{
+    color: #0071bc;
+    font-weight: 700;
+    line-height: 25px;
+}
+#visualHeaderLarge{
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+}
+#visualSection img{
+    width: 1025px;
+    height: 714px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+#visualSection small{
+    color: #333;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
 }
 #aboutSection{
     display: flex;
@@ -51,7 +95,7 @@ main{
 #aboutSection h1{
     font-size: 40px;
     font-weight: bold;
-    color: #000;
+    color: #333;
     margin: 20px;
 }
 #aboutSection h1::after{
@@ -68,13 +112,14 @@ main{
     flex-direction: row;
 }
 #aboutContent img{
-    width: 520px;
-    height: 320px;
+    width: 496px;
+    height: 328px;
     border-radius: 25px;
 }
 #aboutContent p{
     width: 520px;
     height: 320px;
+    color: #333;
     display: inline-block;
     margin-left: 40px;
     padding: 60px 0px;
@@ -160,13 +205,13 @@ footer{
 #footerImg{
     transform: scale(1.1);
 }
-#footerSubText i {
+.footerTop i {
     font-size: 20px;
 }
 .footerBottom{
     height: 80px;
     text-align: center;
     padding: 15px;
-    color: #999;
+    color: #666;
     border-top: 1px solid #bbb;
 }
