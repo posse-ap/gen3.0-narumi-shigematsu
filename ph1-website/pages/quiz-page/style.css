@@ -111,6 +111,17 @@ main{
     margin-bottom: 36px;
 }
 
+#quizSection{
+    width: 70%;
+    margin: 0 15%;
+}
+.quizQuestion{
+    margin: 100px 0;
+}
+#quizImg01{
+    width: 80%;
+}
+
 #lineSection{
     position: relative;
 }
