@@ -199,11 +199,6 @@ main{
     cursor: pointer;
 }
 
-#quizChoices li:hover{
-    background-color: #efefef;
-    border: 5px solid #ddd;
-}
-
 #quizChoices li img{
     width: 16px;
     height: 16px;
@@ -212,12 +207,72 @@ main{
     right: 1rem;
 }
 
+#quizChoices li:hover{
+    background-color: #efefef;
+    border: 5px solid #ddd;
+}
+
+#quizChoices li.correct, #quizChoices li.wrong{
+    color: #0071bc;
+    background-color: #eff2f5;
+    border: 5px solid #0071bc;
+}
+
+#quizCorrect, #quizWrong{
+    display: none;
+}
+
+#quizCorrect.correct{
+    display: block;
+    margin-bottom: 10px;
+    padding: 24px 40px;
+    background-color: #fff2f5;
+    border-radius: 8px;
+}
+
+#quizCorrect h2{
+    color: #e34e70;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    vertical-align: top;
+}
+
+#quizWrong.wrong{
+    display: block;
+    margin-bottom: 10px;
+    padding: 24px 40px;
+    background-color: #eff2f5;
+    border-radius: 8px;
+}
+
+#quizWrong h2{
+    color: #0071bc;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    vertical-align: top;
+}
+
+#quizCorrect p, #quizWrong p{
+    margin-top: 24px;
+    color: #333;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+#quizCorrect span, #quizWrong span{
+    margin-right: 1rem;
+    color: #333;
+    font-size: 24px;
+}
+
 .quizReference{
     color: #333;
     font-weight: bold;
     padding: 20px;
     background-color: #f6f6f6;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 
