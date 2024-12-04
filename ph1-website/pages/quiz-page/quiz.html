@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ph1-posse-website</title>
+    <link rel="stylesheet" href="./destyle.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/92d415f0a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="headerContent">
+        <img id="logo" src="../../img/logo.svg" alt="POSSE" />
+        <nav>
+          <ul id="headerNav">
+            <li><a class="linkLetter" href="">POSSEとは</a></li>
+            <li><a class="linkLetter" href="">クイズ</a></li>
+            <li>
+              <a class="snsButton" href=""
+                ><img src="../../img/icon/icon-twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a
+                class="snsButton"
+                href="https://www.instagram.com/posse_programming/"
+                ><img src="../../img/icon/icon-instagram.svg" alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <a id="lineBanner" href="">
+        <img src="../../img/icon/icon-line-new.png" alt="" />
+        POSSE公式LINEで<br />最新情報をGET！
+        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      </a>
+    </header>
+    <main>
+      <section id="visualSection">
+        <img src="../../img/quiz/bg-hero.jpg" alt="" />
+        <div id="visualContent">
+          <p id="visualSubHeading">POSSE課題</p>
+          <h1>ITクイズ</h1>
+        </div>
+      </section>
+      <section class="mainContent" id="quizSection">
+        <!-- <div class="quizQuestion">
+            <div class="quizNumber">Q 1</div>
+            <p id="quizText"></p>
+            <img class="quizImg" src="../../img/quiz/img-quiz01.png" alt="">
+            <div class="quizAnswer">A</div>
+            <ul id="quizChoices"></ul>
+            <div id="quizCorrect">
+              <h2>正解！</h2>
+              <p><span>A</span></p>
+            </div>
+            <div id="quizWrong">
+              <h2>不正解...</h2>
+              <p><span>A</span></p>
+            </div>
+            <div class="quizReference"><img src="../../img/icon/icon-note.svg" alt="">　経済産業省 2019年3月 － IT 人材需給に関する調査</div>
+        </div> -->
+        <!-- <div class="quizQuestion">
+          <div class="quizNumber">Q 2</div>
+            <p class="quizText">既存業界のビジネスと、先進的なテクノロジーを結びつけて生まれた、新しいビジネスのことをなんと言うでしょう？</p>
+            <img class="quizImg" src="../../img/quiz/img-quiz02.png" alt="">
+            <div class="quizAnswer">A</div>
+            <ul class="quizChoices">
+              <li>INTECH<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>BIZZTECH<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>X-TECH<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="quizQuestion">
+          <div class="quizNumber">Q 3</div>
+            <p class="quizText">IoTとは何の略でしょう？</p>
+            <img class="quizImg" src="../../img/quiz/img-quiz03.png" alt="">
+            <div class="quizAnswer">A</div>
+            <ul class="quizChoices">
+              <li>Internet of Things<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>Integrate into Technology<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>Information  on Tool<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="quizQuestion">
+          <div class="quizNumber">Q 4</div>
+            <p class="quizText">日本が目指すサイバー空間とフィジカル空間を高度に融合させたシステムによって開かれる未来社会のことをなんと言うでしょうか？</p>
+            <img class="quizImg" src="../../img/quiz/img-quiz04.png" alt="">
+            <div class="quizAnswer">A</div>
+            <ul class="quizChoices">
+              <li>Society 5.0<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>CyPhy<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>SDGs<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+            </ul>
+            <div class="quizReference"><img src="../../img/icon/icon-note.svg" alt="">　Society5.0 - 科学技術政策 - 内閣府</div>
+        </div>
+        <div class="quizQuestion">
+          <div class="quizNumber">Q 5</div>
+            <p class="quizText">イギリスのコンピューター科学者であるギャビン・ウッド氏が提唱した、ブロックチェーン技術を活用した「次世代分散型インターネット」のことをなんと言うでしょう？</p>
+            <img class="quizImg" src="../../img/quiz/img-quiz05.png" alt="">
+            <div class="quizAnswer">A</div>
+            <ul class="quizChoices">
+              <li>Web3.0<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>NFT<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>メタバース<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="quizQuestion">
+          <div class="quizNumber">Q 6</div>
+            <p class="quizText">先進テクノロジー活用企業と出遅れた企業の収益性の差はどれくらいあると言われているでしょうか？</p>
+            <img class="quizImg" src="../../img/quiz/img-quiz06.png" alt="">
+            <div class="quizAnswer">A</div>
+            <ul class="quizChoices">
+              <li>約2倍<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>約5倍<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+              <li>約11倍<img src="../../img/icon/icon-arrow.svg" alt=""></li>
+            </ul>
+            <div class="quizReference"><img src="../../img/icon/icon-note.svg" alt="">　Accenture Technology Vision 2021 </div>
+        </div> -->
+      </section>
+      <section class="mainContent" id="lineSection">
+        <div id="lineBackground"></div>
+        <div id="lineContent">
+          <h1>
+            <img src="../../img/icon/icon-line-new.png" alt="LINE" />
+            POSSE 公式LINE
+          </h1>
+          <p id="lineText">
+            公式LINEにてご質問を随時受け付けております。<br />詳細やPOSSE最新情報につきましては、公式LINEにてお知らせ致しますので<br />下記ボタンより友達追加をお願いします！
+          </p>
+          <a class="linkLetter" id="lineButton" href=""
+            >LINE追加<img src="../../img/icon/icon-link-gray-dark.svg" alt=""
+          /></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footerTop">
+        <div><img id="footerImg" src="../../img/logo.svg" alt="POSSE" /></div>
+        <a class="linkLetter" href=""
+          >POSSE 公式サイト
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <div>
+          <a class="snsButton" href=""
+            ><img src="../../img/icon/icon-twitter.svg" alt="Twitter"
+          /></a>
+          <a
+            class="snsButton"
+            href="https://www.instagram.com/posse_programming/"
+            ><img src="../../img/icon/icon-instagram.svg" alt="Instagram"
+          /></a>
+        </div>
+      </div>
+      <div class="footerBottom"><small>&copy; 2022 POSSE</small></div>
+    </footer>
+    <script src="quiz.js"></script>
+  </body>
+</html>

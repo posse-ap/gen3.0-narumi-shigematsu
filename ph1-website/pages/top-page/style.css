@@ -1,0 +1,249 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+#headerContent{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    margin-left: 30px;
+}
+ul{
+    width: 280px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+}
+.linkLetter{
+    color: #666;
+}
+header .linkLetter, #lineSection .linkLetter{
+    font-weight: bold;
+}
+.snsButton{
+    border-radius: 25px;
+    border: 1px solid #bbb;
+    position: relative;
+    bottom: 2px;
+    padding: 8px;
+}
+.snsButton img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 3px;
+    color: #adadad;
+}
+#lineBanner{
+    width: 300px;
+    height: 80px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.15em;
+    line-height: 20px;
+    background-color: #5fdf5b;
+    border-radius: 15px;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+#lineBanner img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#lineBanner i{
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    left: 40px;
+}
+main{
+    margin-top: 80px;
+}
+.mainContent{
+    margin: 160px auto;
+}
+#visualContent{
+    display: flex;
+    align-items: center;
+}
+#visualHeader{
+    width: 500px;
+    height: 280px;
+    padding: 50px;
+    background-color: #eff2f5;
+    border-radius: 24px;
+    position: relative;
+    left: 120px;
+    z-index: 1;
+}
+#visualHeaderSmall{
+    color: #0071bc;
+    font-weight: 700;
+    line-height: 25px;
+}
+#visualHeaderLarge{
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+}
+#visualSection img{
+    width: 1025px;
+    height: 714px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+#visualSection small{
+    color: #333;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+}
+#aboutSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#aboutSection h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px;
+}
+#aboutSection h1::after{
+    content: "About POSSE";
+    font-size: 16px;
+    color: #0071bc;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#aboutContent{
+    display: flex;
+    flex-direction: row;
+}
+#aboutContent img{
+    width: 496px;
+    height: 328px;
+    border-radius: 25px;
+}
+#aboutContent p{
+    width: 520px;
+    height: 320px;
+    color: #333;
+    display: inline-block;
+    margin-left: 40px;
+    padding: 60px 0px;
+    line-height: 1.7;
+}
+#lineSection{
+    position: relative;
+}
+#lineBackground{
+    width: 1080px;
+    height: 410px;
+    background-size:cover;
+    background-position:50%;
+    margin: 50px auto;
+    background-image: url(../../img/bg-line.jpg);
+    border-radius: 50px;
+}
+#lineBackground::after{
+    content: "";
+    display: inline-block;
+    width: 1080px;
+    height: 410px;
+    border-radius: 50px;
+    background-color: rgba(0, 113, 188, 0.8);
+}
+#lineContent{
+    height: 40vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#lineContent h1{
+    margin: 20px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+#lineContent img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+}
+#lineText{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.12em;
+    line-height: 1.7;
+}
+#lineButton{
+    position: relative;
+    color: #666;
+    background-color: #fff;
+    margin: 20px;
+    padding: 15px 150px;
+    border-radius: 30px;
+}
+#lineButton img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 1rem;
+}
+footer{
+    width: 100%;
+}
+.footerTop{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px;
+    border-top: 1px solid #bbb;
+}
+#footerImg{
+    transform: scale(1.1);
+}
+.footerTop i {
+    font-size: 20px;
+}
+.footerBottom{
+    height: 80px;
+    text-align: center;
+    padding: 15px;
+    color: #666;
+    border-top: 1px solid #bbb;
+}
